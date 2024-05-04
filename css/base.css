@@ -1,0 +1,28 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Meera Inimai';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/meera-inimai-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* base */
+:root {
+  --primary-dark: #000000;
+  --primary-light: #204D8C;
+}
+
+::selection {
+  background-color: var(--primary-dark);
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Meera Inimai';
+}
+
+.container {
+  max-width: 1200px;
+}
